@@ -24,7 +24,7 @@ def load_and_preprocess_data(csv_path):
 
     # Разделение на обучающую и тестовую выборки
     X_train, X_test, y_train, y_test = train_test_split(
-        images, labels, test_size=0.2, random_state=42
+        images, labels, test_size=0.1, random_state=42
     )
 
     # Добавление канального измерения (для CNN)

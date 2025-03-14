@@ -146,5 +146,3 @@ model.add(Dense(7, activation='softmax'))  # 7 классов эмоций
 
 ![Confusion Matrix](results/confusion_matrix.png)
 
-Вот отчет, которы
-
