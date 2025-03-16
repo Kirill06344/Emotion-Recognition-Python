@@ -27,13 +27,10 @@ def load_dataset(directory):
     for label in os.listdir(directory):
         label_dir = os.path.join(directory, label)
         if os.path.isdir(label_dir):  # Ensure it's a directory
-            print(f"Processing label: {label}")
             for filename in os.listdir(label_dir):
                 image_path = os.path.join(label_dir, filename)
                 image_paths.append(image_path)
                 labels.append(label)
-
-            print(f"{label} Completed")
         else:
             print(f"Skipping non-directory: {label}")
 

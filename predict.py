@@ -29,5 +29,5 @@ def recognize_emotion(image_path):
     print(f"Распознанная эмоция: {emotion}")
 
 if __name__ == "__main__":
-    image_path = "imgs/fear.jpg"  # Укажите путь к вашему изображению
+    image_path = "imgs/sad.png"  # Укажите путь к вашему изображению
     recognize_emotion(image_path)
